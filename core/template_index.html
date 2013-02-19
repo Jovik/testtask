@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Flask serving TestTask</title>
+
+<h1>Test results:</h1>
+
+<ol>
+    {% for result in results %}
+        <h2><li><a href={{ result[0] }}>{{ result[1] }}</a></h2>
+    {% else %}
+        <li><em>Unbelievable. No entries here so far</em>
+    {% endfor %}
+</ol>

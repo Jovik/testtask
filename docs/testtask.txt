@@ -1,0 +1,33 @@
+Test Task
+
+Description:
+Write a python script which implements the following steps in an automated manner and is
+able to run on your favorite platform:
+
+1. Downloads two different versions of VLC player from
+    http://download.videolan.org/pub/videolan/vlc/
+
+2. Compiles them from source
+
+3. Plays a video file (http://download.microsoft.com/download/6/8/f/68f212d7-f58d-4542-890d-65d7e790f2e0/The_Magic_of_Flight_720.exe) with the compiled binaries where video file is fed through API/CMD line (preferably use API)
+
+4. Measures & logs & plots cpu, memory usage, thread count (come up with any other performance/resource related parameters you can think about).
+
+5. Stores the data which is collected in step #4 in a database (f.ex. sqlite, psql)
+
+6. Compares two versions of VLC using the values, which are obtained in step 4. (Plot performance parameters on the same plot, make them visible etc)
+
+7. Prepare a web page to display the information on step #6 by using your favorite web framework (flask, web.py, django), which runs on localhost using simpe python http server.
+
+8. [OPTIONAL] Run VLC with both versions to check for memory leaks and create some sort of report for the results
+
+9. [OPTIONAL] Try to measure code coverage while VLC is playing a video file. Use any code coverage tool you prefer.
+
+10. Prepare a report explaining your findings
+
+
+Contact:
+For questions:
+• Skype: se**********cu
+• e-mail: se*********ncu@s***e.net
+
